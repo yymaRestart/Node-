@@ -1,8 +1,12 @@
-const http = require('http');
-const url = require('url');
 /**
  * req 获取url信息
  * res 浏览器返回响应信息
+ */
+const http = require('http');
+const url = require('url');
+/**
+ *req获取url信息 (request)
+  res浏览器返回响应信息(response)
  */
 http.createServer(function (req, res) {
     res.writeHead(200, { "Content-Type": "text/html;charset='utf-8'" });
